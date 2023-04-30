@@ -1,0 +1,225 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/* Cabeçalho - Primeira seção */
+
+.about-us {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  os filhos de uma div com display flex*/
+}
+
+.about-us span {
+  color: var(--main-color);
+}
+
+.about-us h1 {
+  font-size: 2rem;
+}
+
+.about-us p {
+  color: var(--text-color);
+  max-width: 33%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+/* Contadores - Segunda seção */
+
+.metricas-container {
+  /* Number */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* Display xl/Semibold */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.02em;
+  color: #8e2424;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.metricas-container div {
+  width: 280px;
+  height: 72px;
+}
+
+/*Terceira seção*/
+
+.intertitulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  height: 28px;
+  width: 280px;
+  left: 0px;
+  top: 12px;
+  border-radius: nullpx;
+
+  /* Text lg/Medium */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* Gray/900 */
+  color: #101828;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*Quarta parte da terceira seção*/
+
+.paragrafos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*bottom: 36px;*/
+}
+
+.paragrafos p {
+  /* Supporting text */
+  width: 280px;
+  height: 72px;
+  /* Text md/Normal */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Gray/500 */
+  color: #667085;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*Quarta seção*/
+
+.vagas-abertas {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vagas-abertas span {
+  color: var(--main-color);
+  bottom: 20px;
+}
+
+.vagas-abertas h2 {
+  height: 44px;
+  width: 768px;
+  border-radius: nullpx;
+
+  text-align: center;
+
+  /* Display md/Semibold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.vagas-abertas p {
+  /* Supporting text */
+
+  width: 768px;
+  height: 30px;
+
+  /* Text xl/Normal */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Gray/500 */
+
+  color: #667085;
+
+  
